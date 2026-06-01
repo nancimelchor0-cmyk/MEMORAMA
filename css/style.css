@@ -1,0 +1,23 @@
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.carta {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.carta.volteada {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
